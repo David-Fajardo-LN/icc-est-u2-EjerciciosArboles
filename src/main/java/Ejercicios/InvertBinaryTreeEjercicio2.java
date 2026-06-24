@@ -33,7 +33,7 @@ public class InvertBinaryTreeEjercicio2 {
    }
 
    public void printInvertido(Nodes<Integer> root) {
-      System.out.println("IMPRESION ARBOL VERTICAL");
+      System.out.println("---- Arbol Invertido ----");
       this.printInvertirRecursivo(root, 0);
    }
 
