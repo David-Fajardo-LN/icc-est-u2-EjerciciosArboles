@@ -97,6 +97,20 @@ Resolucion del ejercicio 4:
 
 El metodo recursivo primero verifica que existan elementos en el arbol antes de comenzar el proceso, llamandose a si mismo hasta llegar a las hojas, retorna la cantidad de profundidad en las dos ramas, el metodo math es el que retorna en base al resultado de la recursion, el mayor elemento, sumando uno para incluir el nodo inicial del cual parten los datos. 
 
+Conclusiones:
+
+Los ejercicios demuestran la utilidad de la recursividad en estructuras no lineales, por su eficiencia al recorrer arboles de manera encilla, siplificando codigo largo en solo unas pocas lineaas.
+La implementacion de las colas para recorrer niveles, mostrando en escencia, como las estructuras lineales pueden complementar procesos no lineales referente a la organizacion y visualizacion de estructuras.
+
+Recomendaciones:
+
+La principal recmendacion seria incluir el manejo de exepciones en las partes de codio que pueden romperse en donde ocurre un error.
+
+Observaciones:
+
+La recursividad funciona de buena manera en arboles pequeños como los del ejercicio, pero pueden dar problemas de rendimiento en secciones mas grandes
+
+
 
 link del repositorio:
 
