@@ -96,3 +96,8 @@ public List<List<Nodes<Integer>>> listLevels(Nodes<Integer> root) {
 Resolucion del ejercicio 4:
 
 El metodo recursivo primero verifica que existan elementos en el arbol antes de comenzar el proceso, llamandose a si mismo hasta llegar a las hojas, retorna la cantidad de profundidad en las dos ramas, el metodo math es el que retorna en base al resultado de la recursion, el mayor elemento, sumando uno para incluir el nodo inicial del cual parten los datos. 
+
+
+link del repositorio:
+
+https://github.com/David-Fajardo-LN/icc-est-u2-EjerciciosArboles.git
