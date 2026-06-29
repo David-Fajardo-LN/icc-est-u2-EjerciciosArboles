@@ -14,7 +14,6 @@ import models.Persona;
 import node.Nodes;
 import trees.BinaryTree;
 import trees.InteTree;
-import collections.Sets;
 
 /**
  *
@@ -133,30 +132,12 @@ public class App {
 
       //Implementacion tipo ---> HashSet con hashcode
       System.out.println("HASHCODE: ");
-      Set<String> hashSet = sets.construirHashSet();
+      Set<String> hashSet = sets.construirHashSet;
 
       System.out.println(hashSet);
       System.out.println("Size: " + hashSet.size());
 
       System.out.println("El hash contiene F: " + hashSet.contains("F"));
-
-      //Implementacion tipo ---> TreeSet con hashCode
-      System.out.println("HASHCODE: ");
-      Set<String> tSet = sets.construirTreeSet();
-
-      System.out.println(tSet);
-      System.out.println("Size: " + tSet.size());
-
-      System.out.println("El hash contiene F: " + tSet.contains("F"));
-
-      //Implementacion tipo ---> LinkedHashSet
-      System.out.println("HASHCODE: ");
-      Set<String> linkedSet = sets.construirTreeSet();
-
-      System.out.println(linkedSet);
-      System.out.println("Size: " + linkedSet.size());
-
-      System.out.println("El hash contiene F: " + linkedSet.contains("F"));
 
 
    }
